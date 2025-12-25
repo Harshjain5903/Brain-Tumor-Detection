@@ -69,7 +69,8 @@ python main.py
 ## Notes
 - The `uploads/` folder is used to store images uploaded via the web interface.
 - The `sample MRI Images/` folder contains example images for testing.
-- The virtual environment folders (`venv311/`, `venv38/`) are not required for deployment and should not be committed to version control.
+- The virtual environment folders (`venv311/`, `venv38/`, and any `venv*/`) are not required for deployment and should not be committed to version control. These are now excluded via `.gitignore`.
+- The `models/model.h5` file (large model file) is also excluded from version control for repository cleanliness. Place your trained model here manually if needed.
 
 ## Requirements
 - Python 3.8+

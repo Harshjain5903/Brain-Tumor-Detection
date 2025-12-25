@@ -1,0 +1,15 @@
+# Virtual envs
+venv/
+venv38/
+venv311/
+
+# Datasets and uploads
+uploads/
+sample MRI Images/
+
+# Model files
+models/*.h5
+
+# Python/cache files
+__pycache__/
+*.pyc
