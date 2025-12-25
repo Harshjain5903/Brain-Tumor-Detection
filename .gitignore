@@ -13,3 +13,8 @@ models/*.h5
 # Python/cache files
 __pycache__/
 *.pyc
+venv/
+venv38/
+venv311/
+models/*.h5
+uploads/
